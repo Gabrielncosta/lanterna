@@ -1,0 +1,13 @@
+@font-face {
+    font-family : 'prototyperegular';
+    src         : url('../fonts/prototype-webfont.woff2') format('woff2'),
+    url('../fonts/prototype-webfont.woff') format('woff'),
+    url('../fonts/prototype-webfont.ttf') format('truetype');
+    font-weight : normal;
+    font-style  : normal;
+}
+
+@mixin proto() {
+    font-weight : 400;
+    font-family : 'prototyperegular', arial, sans-serif;
+}
